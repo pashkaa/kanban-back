@@ -1,3 +1,6 @@
+npm run dev
+npm run watch
+
 # BOARDS
 
 getAllBoards - GET - / - {}
