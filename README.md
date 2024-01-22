@@ -6,7 +6,7 @@ createBoard - POST - /create - {}
 
 # TASKS
 
-getTaskById - GET - /:id/tasks/:taskId - { id: string, taskId: string }
+getTaskById - GET - /:id/tasks/:taskId - { id: string, taskId: string } \n
 createTaskById - POST - /tasks/:id - { id: string, title: string, description:string }
 createTaskById - POST - /tasks-id/:id - { id: string, title: string, description:string, taskId: string }
 deleteTaskById - DELETE - /tasks/:id - { id: string, taskId: string }
