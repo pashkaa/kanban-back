@@ -18,3 +18,5 @@ deleteTaskInArrayById - DELETE - /board-tasks/:id - { id: string }\
 addTaskInArrayByIdAndName - PATCH - /sub-array/add/:id - { id: string, taskId: string, arrayName: string }\
 removeTaskFromArrayByIdAndName - PATCH - /sub-array/remove/:id - { id: string, taskId: string, arrayName: string }\
 deleteArrayById - DELETE - /sub-array/:id - { id: string}\
+
+mongodb+srv://pavlo:pavlo123@cluster0.ikieo.mongodb.net/
